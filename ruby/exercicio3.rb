@@ -12,10 +12,10 @@ else
     if x1==x2
     puts "a reta é vertical"
     else
-        m=(x2-x1)/(y2-y1)
+        m=(y2-y1)/(x2-x1)
         if m>0
             puts "o declive é positivo"
-        elsif m<0
+        else
             puts "o declive é negativo"
         end
     end

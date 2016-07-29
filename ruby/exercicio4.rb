@@ -9,11 +9,7 @@ b2=gets.to_i
 puts"r1:y=#{m1}x+#{b1}"
 puts"r2:y=#{m2}x+#{b2}"
     if m1==m2
-        if b1==b2
-            puts "possui infinitas soluções"
-        else
-            puts "não possui solução"
-        end
+        b1==b2 ? (puts "possui infinitas soluções"):(puts "não possui solução")
     else
         puts "possui uma única solução"
         x=(b2-b1)/(m1-m2)
