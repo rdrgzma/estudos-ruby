@@ -1,0 +1,11 @@
+<% @news.each do |news| %>
+<b> <%= news.title %></b>
+<br/>
+<%= news.description %>
+<br/>
+<a href=" <%= news.link %>" target="_blank"> Ver mais no site</a>
+<br/>
+Data de atualização: <%= news.created_at %>
+<br/>
+<hr>
+<% end %>
